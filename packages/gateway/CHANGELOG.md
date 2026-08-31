@@ -1,5 +1,29 @@
 # @graphql-hive/gateway
 
+## 2.12.0
+### Minor Changes
+
+
+
+- [#2548](https://github.com/graphql-hive/gateway/pull/2548) [`98403d3`](https://github.com/graphql-hive/gateway/commit/98403d3cb90fa9e49f84178d2bce73477242d314) Thanks [@studioego](https://github.com/studioego)! - Support the `HOST` environment variable for the `--host` CLI option
+  
+  The `--host` option can now be configured through the `HOST` environment variable, matching the existing behaviour of `--port` / `PORT` and the other global CLI options.
+  
+  ```sh
+  HOST=127.0.0.1 PORT=4000 hive-gateway supergraph
+  ```
+
+### Patch Changes
+
+
+
+- [#2537](https://github.com/graphql-hive/gateway/pull/2537) [`e5fa81f`](https://github.com/graphql-hive/gateway/commit/e5fa81f6e1fab2c9b296ae35903ac780abfc1470) Thanks [@jdolle](https://github.com/jdolle)! - dependencies updates:
+  
+  - Updated dependency [`@graphql-hive/render-laboratory@^0.1.16` ↗︎](https://www.npmjs.com/package/@graphql-hive/render-laboratory/v/0.1.16) (from `^0.1.14`, in `dependencies`)
+
+
+- [#2537](https://github.com/graphql-hive/gateway/pull/2537) [`e5fa81f`](https://github.com/graphql-hive/gateway/commit/e5fa81f6e1fab2c9b296ae35903ac780abfc1470) Thanks [@jdolle](https://github.com/jdolle)! - Upgrade hive laboratory to support defaultCollections argument
+
 ## 2.11.2
 ### Patch Changes
 
